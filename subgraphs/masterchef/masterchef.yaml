@@ -1,6 +1,6 @@
 specVersion: 0.0.3
 description: Masterchef
-repository: https://github.com/sushiswap/sushiswap-subgraph
+repository: https://github.com/feraswap/feraswap-subgraph
 schema:
   file: ./masterchef.graphql
 dataSources:
@@ -8,7 +8,7 @@ dataSources:
     name: MasterChef
     network: mainnet
     source:
-      address: '0xc2edad668740f1aa35e4d8f227fb8e17dca888cd'
+      address: '0x0b6f07520ce88a8f3f31Ba09f1811eC8C034f06f'
       abi: MasterChef
       startBlock: 10736242
     mapping:
